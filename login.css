@@ -2,7 +2,9 @@
 display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
     display: flex;
     display: -webkit-flex; }
-  
+  *{
+    margin: 0;
+  }
   /* @extend list-type-ulli; */
   list-type-ulli, .socials {
     list-style-type: none;
